@@ -10966,7 +10966,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* typography */
 p {
-  font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
+  /* font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300))); */
   opacity: .8;
   color: #444;
 }
@@ -10989,7 +10989,7 @@ p {
 
 .info {
   color: #6c757d;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .info li {
@@ -10998,7 +10998,7 @@ p {
 
 .info span {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   color: #343a40;
 }
 
@@ -11084,7 +11084,7 @@ p {
 }
 
 .card .card-body {
-  font-size: 14px;
+  font-size: 15px;
   color: #6c757d;
 }
 

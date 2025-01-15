@@ -1,6 +1,8 @@
+import { urlCV } from '../utils'
+
 export const Header = () => {
     const handleClick = (): void => {
-        window.location.href = 'https://drive.google.com/file/d/1NZXdOAZ8tii_oIH_2E2UuG1U1oN-e0HK/view'; // Mengalihkan pengguna ke halaman baru
+        window.location.href = urlCV(); // Mengalihkan pengguna ke halaman baru
     };
     return (
         <header className="header">

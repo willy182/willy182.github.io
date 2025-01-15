@@ -1,1 +1,1 @@
-export { addScript, removeScript } from './helpers';
+export { addScript, removeScript, urlCV } from './helpers';

@@ -1,4 +1,9 @@
+import { urlCV } from '../utils'
+
 export const Profile = () => {
+    const handleClick = (): void => {
+        window.location.href = urlCV(); // Mengalihkan pengguna ke halaman baru
+    };
     return (
         <div className="container-fluid">
             <div id="about" className="row about-section">
@@ -17,7 +22,7 @@ export const Profile = () => {
                         expertise, contribute to impactful projects, and be part of a team
                         that drives technological and business innovation.
                     </p>
-                    <button className="btn btn-outline-danger">
+                    <button className="btn btn-outline-danger" onClick={handleClick}>
                         <i className="icon-down-circled2" />
                         Download My CV
                     </button>

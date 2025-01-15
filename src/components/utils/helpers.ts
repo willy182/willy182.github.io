@@ -27,3 +27,7 @@ export const removeScript = (src: string): void => {
         script.remove();
     }
 };
+
+export const urlCV = (): string => {
+    return 'https://drive.google.com/file/d/1WZ4cf21tm-_DQc6dsTeAYywyz3MKprTK/view?usp=drive_link';
+}
