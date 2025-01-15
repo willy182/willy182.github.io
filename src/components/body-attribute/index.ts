@@ -1,0 +1,1 @@
+export { BodyAttributes } from './body-attribute';
