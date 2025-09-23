@@ -29,5 +29,5 @@ export const removeScript = (src: string): void => {
 };
 
 export const urlCV = (): string => {
-    return 'https://drive.google.com/file/d/1WZ4cf21tm-_DQc6dsTeAYywyz3MKprTK/view?usp=drive_link';
+    return 'https://drive.google.com/file/d/1SLEFeBaffVPqd_qgW7niHdq5xhih4lKs/view?usp=drive_link';
 }
